@@ -7,6 +7,6 @@ function testFunc() {
 const superbowlWin = (objArr) => {
   const results = objArr.find(x => x.result ==="W")
   
-  return results.year;
+ results ? results.year : undefined
 
 }
