@@ -5,7 +5,7 @@ function testFunc() {
 }
 
 const superbowlWin = (objArr) => {
-  return objArr.filter(x => x.result ==="W" ? x.year )
+  return objArr.filter(x => x.result ==="W" ? x.year : undefined)
   
-  return result
+
 }
