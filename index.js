@@ -10,5 +10,5 @@ const superbowlWin = (objArr) => {
     return x.year 
   })
   
-  return result.year
+  return result
 }
