@@ -5,7 +5,7 @@ function testFunc() {
 }
 
 const superbowlWin = (objArr) => {
-  return objArr.find(x => { 
+  return objArr.filter(x => { 
     if (x.result ==="W") 
     return x.year 
     
